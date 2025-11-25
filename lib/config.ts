@@ -10,13 +10,13 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     label: "Is this stock a value buy?",
     prompt:
       "Agent Warren, walk me through whether this stock is a good value investment. Include moat, management quality, debt, and fair value versus market price.",
-    icon: "chart-mixed",
+    icon: "chart",
   },
   {
     label: "Evaluate a real estate deal",
     prompt:
       "Agent Warren, stress test this real estate opportunity. Consider cap rates, cash flow, leverage, location risks, and margin of safety.",
-    icon: "building-columns",
+    icon: "map-pin",
   },
 ];
 
