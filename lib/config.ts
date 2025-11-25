@@ -7,15 +7,24 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
+    label: "Is this stock a value buy?",
+    prompt:
+      "Agent Warren, walk me through whether this stock is a good value investment. Include moat, management quality, debt, and fair value versus market price.",
+    icon: "chart-mixed",
+  },
+  {
+    label: "Evaluate a real estate deal",
+    prompt:
+      "Agent Warren, stress test this real estate opportunity. Consider cap rates, cash flow, leverage, location risks, and margin of safety.",
+    icon: "building-columns",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT =
+  "Ask Agent Warren about a stock, property, or crypto idea...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING =
+  "I’m Agent Warren. Tell me about an investment you’re considering, and I’ll give you a Buffett-style take with current info.";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
